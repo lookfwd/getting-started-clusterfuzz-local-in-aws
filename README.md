@@ -6,6 +6,8 @@ The information below supplements information you will find in the 3 relevant pa
 2. [Running a local instance](https://google.github.io/clusterfuzz/getting-started/local-instance/)
 3. [libFuzzer and AFL](https://google.github.io/clusterfuzz/setting-up-fuzzing/libfuzzer-and-afl/)
 
+The repo changes fast so some of those steps will be obsolete soon and hopefully for the better.
+
 ## Prepare extra dependencies
 ```
 # sudo add-apt-repository ppa:deadsnakes/ppa
