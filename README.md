@@ -1,4 +1,11 @@
 # Getting Started with ClusterFuzz Local in AWS
+
+The information below supplements information you will find in the 3 relevant pages of [the documentation](https://google.github.io/clusterfuzz):
+
+1. [Prerequisites](https://google.github.io/clusterfuzz/getting-started/prerequisites/)
+2. [Running a local instance](https://google.github.io/clusterfuzz/getting-started/local-instance/)
+3. [libFuzzer and AFL](https://google.github.io/clusterfuzz/setting-up-fuzzing/libfuzzer-and-afl/)
+
 ## Prepare extra dependencies
 ```
 # sudo add-apt-repository ppa:deadsnakes/ppa
@@ -50,7 +57,7 @@ local/install_deps.bash
 
 Enable AWS IP for uploads - see also [here](https://github.com/google/clusterfuzz/issues/163#issuecomment-624449147):
 
-```
+```diff
 diff --git a/local/emulators/gcs.go b/local/emulators/gcs.go
 index d2af8a18..fb735030 100644
 --- a/local/emulators/gcs.go
@@ -79,7 +86,7 @@ index 87d84b30..68d75e8a 100644
 
 Make the bot require less storage:
 
-```
+```diff
 diff --git a/src/python/build_management/build_manager.py b/src/python/build_management/build_manager.py
 index c0b11140..68578337 100644
 --- a/src/python/build_management/build_manager.py
