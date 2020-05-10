@@ -1,5 +1,9 @@
 # Getting Started with ClusterFuzz Local in AWS
 
+You can find the video [on YouTube](https://youtu.be/65aywI2JcLA):
+
+[![Getting Started with ClusterFuzz Local in AWS on YouTube](images/youtube.png)](https://youtu.be/65aywI2JcLA)
+
 The information below supplements information you will find in the 3 relevant pages of [the documentation](https://google.github.io/clusterfuzz):
 
 1. [Prerequisites](https://google.github.io/clusterfuzz/getting-started/prerequisites/)
