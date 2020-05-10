@@ -19,14 +19,6 @@ sudo apt-get install python3.7 zip python3-pip python3.7-dev clang-tools-9
 sudo python3.7 -m pip install pipenv
 sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-9 100
 
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
-
-
-sudo update-alternatives --config python3
-
-# -> Choose [1]
-
 ubuntu@ip-172-30-0-166:~/clusterfuzz$ python3 -V
 Python 3.6.9
 ubuntu@ip-172-30-0-166:~/clusterfuzz$ python3.7 -V
