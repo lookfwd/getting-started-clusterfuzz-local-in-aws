@@ -24,7 +24,6 @@ Python 3.6.9
 ubuntu@ip-172-30-0-166:~/clusterfuzz$ python3.7 -V
 Python 3.7.7
 
-
 pushd /tmp
 wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
 sudo tar -xvf go1.11.linux-amd64.tar.gz
@@ -78,7 +77,7 @@ index 87d84b30..68d75e8a 100644
 +LOCAL_GCS_SERVER_HOST = 'http://<my-public-ip>:' + str(LOCAL_GCS_SERVER_PORT)
 ```
 
-Make the bot require less storage:
+(Optional) Make the bot require less storage:
 
 ```diff
 diff --git a/src/python/build_management/build_manager.py b/src/python/build_management/build_manager.py
